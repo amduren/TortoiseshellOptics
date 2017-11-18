@@ -7,6 +7,12 @@ html {
   line-height: 1.4;
 }
 
+li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 2rem;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -16,6 +22,45 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* header styles */
+header {
+  height: 31rem;
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+header .container {
+  background-color: cadetblue;
+  justify-content: space-between;
+  position: relative;
+  top: 1rem;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.logo span {
+  margin-left: 1rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+ul.mobile {
+  display: none;
 }
 
 /* footer styles */
