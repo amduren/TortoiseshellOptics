@@ -175,7 +175,6 @@ ul.mobile {
 
 .box p {
   padding-top: 1rem;
-  
 }
 
 @media only screen and (max-width: 530px) {
@@ -190,6 +189,21 @@ ul.mobile {
 
   .item .copy {
     font-size: 0.77rem;
+  }
+
+  .box {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  .title {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .box p {
+    font-size: 0.77rem;
+    padding-left: 0.5rem;
   }
 }
 
@@ -215,7 +229,7 @@ footer .container {
   }
 }
 
-@media only screen and (max-width: 485px) {
+@media only screen and (max-width: 530px) {
   footer {
     margin-bottom: 0;
   }
