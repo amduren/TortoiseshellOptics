@@ -63,6 +63,31 @@ ul.mobile {
   display: none;
 }
 
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 22rem;
+  }
+
+  header .container {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  header {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  ul.desktop {
+    display: none;
+  }
+
+  ul.mobile {
+    display: block;
+  }
+}
+
 /* footer styles */
 footer {
   margin-top: 5rem;
