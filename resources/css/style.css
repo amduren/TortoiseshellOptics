@@ -1,0 +1,35 @@
+/* universal styles */
+html {
+  background-color: white;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer styles */
+footer {
+  margin-top: 5rem;
+}
+
+footer .container {
+  background-color: azure;
+  justify-content: flex-start;
+  padding: 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
